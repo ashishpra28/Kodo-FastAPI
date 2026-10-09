@@ -37,3 +37,9 @@ menu_items = {
         "category": "Beverage"
     }
 }
+
+id = 3
+
+for item in menu_items:
+    if item==id:
+        print(menu_items[item])
